@@ -20,10 +20,6 @@ app.use(bodyParser.json());
 dotenv.config()
 const PORT = process.env.PORT || 4500;
 
-app.get('/', (req, res) => {
-  res.status(200).json('Welcome, your app is working well');
-})
-
 app.use(cors());
 app.use(express.json());
 app.options("*", cors());
