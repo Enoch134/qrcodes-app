@@ -24,10 +24,6 @@ app.use(cors());
 app.use(express.json());
 app.options("*", cors());
 
-app.get('/', (req, res) => {
-  res.status(200).json('Welcome, your app is working well');
-})
-
 app.use(CountResult);
 
 app.use(KenemaShop);
