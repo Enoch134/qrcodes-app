@@ -93,7 +93,7 @@ SELECT 'orange_money_africa_app_download_for_iphone_at_lungishop' as total_downl
 UNION ALL
 SELECT 'orange_money_africa_app_download_for_android_at_lungishop' as total_downloads, count(downloadLocation) as total from downloadInformation where downloadLocation = 'Lungi Shop' and appDownloaded = 'Orange Money Africa Android';
 
-    `;
+ `;
     pool.query(sql, (error, results) => {
         if (error) {
             throw error;
