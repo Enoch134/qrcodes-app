@@ -7,7 +7,7 @@ function HqShopMyOrangeAppAndroid() {
     const coordinate = "8.448686810047384, -13.235764245159077";
     const timestamp = new Date().toISOString();
 
-    fetch(`http://41.191.249.160/api/myOrange-for-hqshop/Android`, {
+    fetch(`https://41.191.249.160/api/myOrange-for-hqshop/Android`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ downloadLocation, appDownloaded, coordinate, timestamp }),
