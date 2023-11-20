@@ -8,7 +8,7 @@ function KonoShopMyOrangeAppIphone() {
     const coordinate = "8.645165523969375, -10.971248831137022"
     const timestamp = new Date().toISOString();
 
-    fetch(`${process.env.REACT_APP_URL}/api/myOrange-for-konoshop/Iphone`, {
+    fetch(`/api/myOrange-for-konoshop/Iphone`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ appDownloaded, downloadLocation, coordinate, timestamp }),

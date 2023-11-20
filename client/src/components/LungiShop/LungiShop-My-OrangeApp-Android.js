@@ -7,7 +7,7 @@ function LungiShopMyOrangeAppAndroid() {
     const coordinate = "8.614998, -13.200568"
     const timestamp = new Date().toISOString();
 
-    fetch(`${process.env.REACT_APP_URL}/api/myOrange-for-lungishop/Android`, {
+    fetch(`/api/myOrange-for-lungishop/Android`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ downloadLocation, appDownloaded, coordinate, timestamp }),

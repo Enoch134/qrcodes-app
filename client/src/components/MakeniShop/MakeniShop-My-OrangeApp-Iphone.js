@@ -8,7 +8,7 @@ function MakeniShopMyOrangeAppIphone() {
     const coordinate = "8.888295930920464, -12.044081938598103";
     const timestamp = new Date().toISOString();
 
-    fetch(`${process.env.REACT_APP_URL}/api/myOrange-for-makenishop/Iphone`, {
+    fetch(`/api/myOrange-for-makenishop/Iphone`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ appDownloaded, downloadLocation, coordinate, timestamp }),

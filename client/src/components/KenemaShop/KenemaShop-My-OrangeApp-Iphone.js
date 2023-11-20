@@ -8,7 +8,7 @@ function KenemaShopMyOrangeAppIphone() {
     const coordinate = "7.880783487922352, -11.190103268601433"
     const timestamp = new Date().toISOString();
 
-    fetch(`${process.env.REACT_APP_URL}/api/myOrange-for-kenemashop/Iphone`, {
+    fetch(`/api/myOrange-for-kenemashop/Iphone`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ appDownloaded, downloadLocation, coordinate, timestamp }),

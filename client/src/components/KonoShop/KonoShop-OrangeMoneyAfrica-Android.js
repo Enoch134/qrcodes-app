@@ -7,7 +7,7 @@ function KonoShopOrangeMoneyAfricaAndroid() {
   const coordinate = "8.645165523969375, -10.971248831137022"
   const timestamp = new Date().toISOString();
 
-  fetch(`${process.env.REACT_APP_URL}/api/orangeMoneyAfrica-for-konoshop/Android`, {
+  fetch(`/api/orangeMoneyAfrica-for-konoshop/Android`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ downloadLocation, appDownloaded, coordinate, timestamp }),

@@ -8,7 +8,7 @@ function FlagshipShopMyOrangeAppIphone() {
     const coordinate = "8.489457425115289, -13.232526791954665";
     const timestamp = new Date().toISOString();
 
-    fetch(`${process.env.REACT_APP_URL}/api/myOrange-for-flagshipshop/Iphone`, {
+    fetch(`/api/myOrange-for-flagshipshop/Iphone`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ appDownloaded, downloadLocation, coordinate, timestamp }),

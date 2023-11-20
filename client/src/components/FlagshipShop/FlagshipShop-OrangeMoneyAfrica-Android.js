@@ -7,7 +7,7 @@ function FlagshipShopOrangeMoneyAfricaAndroid() {
   const coordinate = "8.489457425115289, -13.232526791954665";
   const timestamp = new Date().toISOString();
 
-  fetch(`${process.env.REACT_APP_URL}/api/orangeMoneyAfrica-for-flagshipshop/Android`, {
+  fetch(`/api/orangeMoneyAfrica-for-flagshipshop/Android`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ downloadLocation, appDownloaded, coordinate, timestamp }),

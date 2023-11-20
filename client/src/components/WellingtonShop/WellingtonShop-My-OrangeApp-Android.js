@@ -7,7 +7,7 @@ function WellingtonShopMyOrangeAppAndroid() {
     const coordinate = "8.444351, -13.163071"
     const timestamp = new Date().toISOString();
 
-    fetch(`${process.env.REACT_APP_URL}/api/myOrange-for-wellingtonshop/Android`, {
+    fetch(`/api/myOrange-for-wellingtonshop/Android`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ downloadLocation, appDownloaded, coordinate, timestamp }),

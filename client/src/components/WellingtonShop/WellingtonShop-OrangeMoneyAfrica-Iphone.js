@@ -8,7 +8,7 @@ function WellingtonShopOrangeMoneyAfricaIphone() {
   const coordinate = "8.444351, -13.163071"
   const timestamp = new Date().toISOString();
 
-  fetch(`${process.env.REACT_APP_URL}/api/orangeMoneyAfrica-for-wellingtonshop/Iphone`, {
+  fetch(`/api/orangeMoneyAfrica-for-wellingtonshop/Iphone`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ downloadLocation, appDownloaded, coordinate, timestamp }),
