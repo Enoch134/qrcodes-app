@@ -7,7 +7,7 @@ function BoShopMyOrangeAppAndroid() {
     const coordinate = "7.966290383215581, -11.739795058541828"
     const timestamp = new Date().toISOString();
 
-    fetch(`/api/myOrange-for-boshop/Android`, {
+    fetch(`http://41.191.249.160/api/myOrange-for-boshop/Android`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ downloadLocation, appDownloaded, coordinate, timestamp }),

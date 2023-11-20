@@ -7,7 +7,7 @@ function BoShopOrangeMoneyAfricaAndroid() {
   const coordinate = "7.966290383215581, -11.739795058541828"
   const timestamp = new Date().toISOString();
 
-  fetch(`/api/orangeMoneyAfrica-for-boshop/Android`, {
+  fetch(`http://41.191.249.160/api/orangeMoneyAfrica-for-boshop/Android`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ downloadLocation, appDownloaded, coordinate, timestamp }),
