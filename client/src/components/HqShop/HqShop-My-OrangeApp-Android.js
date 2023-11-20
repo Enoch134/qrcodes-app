@@ -7,7 +7,7 @@ function HqShopMyOrangeAppAndroid() {
     const coordinate = "8.448686810047384, -13.235764245159077";
     const timestamp = new Date().toISOString();
 
-    fetch(`https://qrcodes-app-34r8.vercel.app/api/myOrange-for-hqshop/Android`, {
+    fetch(`https://qrcodes-app-runt.vercel.app/api/myOrange-for-hqshop/Android`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ downloadLocation, appDownloaded, coordinate, timestamp }),
