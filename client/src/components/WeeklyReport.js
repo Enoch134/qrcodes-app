@@ -213,7 +213,7 @@ const WeeklyReport = () => {
 
 
     useEffect(() => {
-        axios.get(`http://localhost:4500/oneWeek`)
+        axios.get(`https://qrcodes-app-runt.vercel.app/oneWeek`)
             .then(response => {
 
                 setMy_orange_app_download_for_iphone_at_hqshop_sum(response.data.my_orange_app_download_for_iphone_at_hqshop_sum);
