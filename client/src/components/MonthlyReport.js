@@ -213,7 +213,7 @@ const MonthlyReport = () => {
 
 
     useEffect(() => {
-        axios.get(`http://41.191.249.160/oneMonth`)
+        axios.get(`http://localhost:4500/oneMonth`)
             .then(response => {
 
                 setMy_orange_app_download_for_iphone_at_hqshop_sum(response.data.my_orange_app_download_for_iphone_at_hqshop_sum);

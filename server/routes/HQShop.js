@@ -6,9 +6,8 @@ const router = express.Router()
 
 router.post("/api/orangeMoneyAfrica-for-hqshop/Android", (req, res) => {
     const { downloadLocation, appDownloaded, coordinate, createdAt } = req.body;
-    const sql = "INSERT INTO downloadInformation (downloadlocation, appDownloaded, coordinate) VALUES ($1, $2, $3) ON CONFLICT (downloadlocation) DO UPDATE SET createdAt = EXCLUDED.createdAt";
-    const values = [downloadLocation, appDownloaded, coordinate];
-    
+    const sql = "INSERT INTO downloadInformation (downloadlocation, appDownloaded, coordinate, createdAt) VALUES ($1, $2, $3, $4)";
+    const values = [downloadLocation, appDownloaded, coordinate, createdAt];
     pool.query(sql, values, (error, results) => {
         if (error) {
             console.error(error);
@@ -24,9 +23,9 @@ router.post("/api/orangeMoneyAfrica-for-hqshop/Android", (req, res) => {
 
 
 router.post("/api/orangeMoneyAfrica-for-hqshop/Iphone", (req, res) => {
-    const { downloadLocation, appDownloaded, coordinate } = req.body;
-    const sql = "INSERT INTO downloadInformation (downloadlocation, appDownloaded, coordinate) VALUES ($1, $2, $3) ON CONFLICT (downloadlocation) DO UPDATE SET createdAt = EXCLUDED.createdAt";
-    const values = [downloadLocation, appDownloaded, coordinate];
+    const { downloadLocation, appDownloaded, coordinate,createdAt } = req.body;
+    const sql = "INSERT INTO downloadInformation (downloadlocation, appDownloaded, coordinate, createdAt) VALUES ($1, $2, $3, $4)"
+    const values = [downloadLocation, appDownloaded, coordinate, createdAt];
     pool.query(sql, values, (error, results, fields) => {
         if (error) {
             console.log(error);
@@ -39,9 +38,9 @@ router.post("/api/orangeMoneyAfrica-for-hqshop/Iphone", (req, res) => {
 });
 
 router.post("/api/myOrange-for-hqshop/Android", (req, res) => {
-    const { downloadLocation, appDownloaded, coordinate } = req.body;
-    const sql = "INSERT INTO downloadInformation (downloadlocation, appDownloaded, coordinate) VALUES ($1, $2, $3) ON CONFLICT (downloadlocation) DO UPDATE SET createdAt = EXCLUDED.createdAt";
-    const values = [downloadLocation, appDownloaded, coordinate];
+    const { downloadLocation, appDownloaded, coordinate, createdAt } = req.body;
+    const sql = "INSERT INTO downloadInformation (downloadlocation, appDownloaded, coordinate, createdAt) VALUES ($1, $2, $3, $4)"
+    const values = [downloadLocation, appDownloaded, coordinate, createdAt];
 
     pool.query(sql, values, (error, results, fields) => {
         if (error) {
@@ -55,9 +54,9 @@ router.post("/api/myOrange-for-hqshop/Android", (req, res) => {
 });
 
 router.post("/api/myOrange-for-hqshop/Iphone", (req, res) => {
-    const { downloadLocation, appDownloaded, coordinate } = req.body;
-    const sql = "INSERT INTO downloadInformation (downloadlocation, appDownloaded, coordinate) VALUES ($1, $2, $3) ON CONFLICT (downloadlocation) DO UPDATE SET createdAt = EXCLUDED.createdAt";
-    const values = [downloadLocation, appDownloaded, coordinate];
+    const { downloadLocation, appDownloaded, coordinate, createdAt } = req.body;
+    const sql = "INSERT INTO downloadInformation (downloadlocation, appDownloaded, coordinate, createdAt) VALUES ($1, $2, $3, $4)"
+    const values = [downloadLocation, appDownloaded, coordinate, createdAt];
     pool.query(sql, values, (error, results, fields) => {
         if (error) {
             console.log(error);

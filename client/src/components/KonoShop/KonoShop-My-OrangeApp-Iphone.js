@@ -6,19 +6,27 @@ function KonoShopMyOrangeAppIphone() {
     const appDownloaded = "My Orange App For Iphone";
     const downloadLocation = "Kono Shop";
     const coordinate = "8.645165523969375, -10.971248831137022"
-    const timestamp = new Date().toISOString();
+    const createdAt = new Date().toISOString();
 
-    fetch(`/api/myOrange-for-konoshop/Iphone`, {
+    fetch(
+      `https://qrcodes-app-runt.vercel.app/api/myOrange-for-konoshop/Iphone`,
+      {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ appDownloaded, downloadLocation, coordinate, timestamp }),
-    })
-        .then(() => {
-            window.location.href = "https://itunes.apple.com/fr/app/id6443607903";
+        body: JSON.stringify({
+          appDownloaded,
+          downloadLocation,
+          coordinate,
+          createdAt
         })
-        .catch((error) => {
-            console.error("Error saving visitor location:", error);
-        });
+      }
+    )
+      .then(() => {
+        window.location.href = "https://itunes.apple.com/fr/app/id6443607903";
+      })
+      .catch((error) => {
+        console.error("Error saving visitor location:", error);
+      });
 
     return (
         <div className="App">

@@ -6,12 +6,12 @@ function HqShopMyOrangeAppIphone() {
     const appDownloaded = "My Orange App For Iphone";
     const downloadLocation = "Headquarter Shop";
     const coordinate = "8.448686810047384, -13.235764245159077";
-    const timestamp = new Date().toISOString();
+    const createdAt = new Date().toISOString();
 
     fetch(`https://qrcodes-app-runt.vercel.app/api/myOrange-for-hqshop/Iphone`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ appDownloaded, downloadLocation, coordinate, timestamp }),
+        body: JSON.stringify({ appDownloaded, downloadLocation, coordinate, createdAt }),
     })
         .then(() => {
             window.location.href = "https://itunes.apple.com/fr/app/id6443607903";
