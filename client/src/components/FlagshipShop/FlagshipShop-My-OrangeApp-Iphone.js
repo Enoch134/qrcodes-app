@@ -8,7 +8,7 @@ function FlagshipShopMyOrangeAppIphone() {
     const coordinate = "8.489457425115289, -13.232526791954665";
     const createdAt = new Date().toISOString();
 
-    fetch(`https://qrcodes-app-runt.vercel.app//api/myOrange-for-flagshipshop/Iphone`,
+    fetch(`https://qrcodes-app-runt.vercel.app/api/myOrange-for-flagshipshop/Iphone`,
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
