@@ -127,13 +127,13 @@ function App() {
           <Route path="my-orangeApp-makenishop-iphone" element={<MakeniShopMyOrangeAppIphone />} />
 
 
-          {/* {/* Flagship Shop */}
+           {/* Flagship Shop */}
           <Route path="my-orangeApp-flagshipshop-Android" element={<FlagshipShopMyOrangeAppAndroid />} />
           <Route path="orange-money-africa-flagshipshop-Android" element={<FlagshipShopOrangeMoneyAfricaAndroid />} />
           <Route path="orange-money-africa-flagshipshop-iphone" element={<FlagshipShopOrangeMoneyAfricaIphone />} />
           <Route path="my-orangeApp-flagshipshop-iphone" element={<FlagshipShopMyOrangeAppIphone />} />
 
-          {/* {/* Waterloo Shop */}
+          {/* Waterloo Shop */}
           <Route path="my-orangeApp-waterlooshop-Android" element={<WaterlooShopMyOrangeAppAndroid />} />
           <Route path="orange-money-africa-waterlooshop-Android" element={<WaterlooShopOrangeMoneyAfricaAndroid />} />
           <Route path="orange-money-africa-waterlooshop-iphone" element={<WaterlooShopOrangeMoneyAfricaIphone />} />
@@ -141,14 +141,14 @@ function App() {
 
 
 
-          {/* {/* Wellington Shop */}
+           {/* Wellington Shop */}
           <Route path="my-orangeApp-wellingtonshop-Android" element={<WellingtonShopMyOrangeAppAndroid />} />
           <Route path="orange-money-africa-wellingtonshop-Android" element={<WellingtonShopOrangeMoneyAfricaAndroid />} />
           <Route path="orange-money-africa-wellingtonshop-iphone" element={<WellingtonShopOrangeMoneyAfricaIphone />} />
           <Route path="my-orangeApp-wellingtonshop-iphone" element={<WellingtonShopMyOrangeAppIphone />} />
 
 
-          {/* {/* Lungi Shop */}
+          {/* Lungi Shop */}
           <Route path="my-orangeApp-lungishop-Android" element={<LungiShopMyOrangeAppAndroid />} />
           <Route path="orange-money-africa-lungishop-Android" element={<LungiShopOrangeMoneyAfricaAndroid />} />
           <Route path="orange-money-africa-lungishop-iphone" element={<LungiShopOrangeMoneyAfricaIphone />} />

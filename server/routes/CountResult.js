@@ -32,16 +32,6 @@ UNION ALL
 SELECT 'Orange Money Africa Android' as total_downloads,  COUNT(downloadLocation) as total FROM downloadInformation WHERE downloadLocation = 'Wellington Shop' AND appDownloaded = 'Orange Money Africa Android'
 UNION ALL
 
-
-SELECT 'my_orange_app_download_for_iphone_at_waterlooshop' as total_downloads, count(downloadLocation) as total from downloadInformation where downloadLocation = 'Waterloo Shop' and appDownloaded = 'My Orange App For Iphone'
-UNION ALL
-SELECT 'my_orange_app_download_for_android_at_waterlooshop' as total_downloads, count(downloadLocation) as total from downloadInformation where downloadLocation = 'Waterloo Shop' and appDownloaded = 'My Orange App For Android'
-UNION ALL
-SELECT 'orange_money_africa_app_download_for_iphone_at_waterlooshop' as total_downloads, count(downloadLocation) as total from downloadInformation where downloadLocation = 'Waterloo Shop' and appDownloaded = 'Orange Money Africa Iphone'
-UNION ALL
-SELECT 'orange_money_africa_app_download_for_android_at_waterlooshop' as total_downloads, count(downloadLocation) as total from downloadInformation where downloadLocation = 'Waterloo Shop' and appDownloaded = 'Orange Money Africa Android'
-UNION ALL
-
 SELECT 'My Orange App For Iphone' as total_downloads,  COUNT(downloadLocation) as total FROM downloadInformation WHERE downloadLocation = 'Waterloo Shop' AND appDownloaded = 'My Orange App For Iphone'
 UNION ALL
 SELECT 'My Orange App For Android' as total_downloads,  COUNT(downloadLocation) as total FROM downloadInformation WHERE downloadLocation = 'Waterloo Shop' AND appDownloaded = 'My Orange App For Android'
@@ -229,9 +219,7 @@ SELECT 'orange_money_africa_app_download_for_android_at_hqshop' as total_downloa
 
 UNION ALL
 
-SELECT 'my_orange_app_download_for_iphone_at_flagshipshop' as total_downloads, COUNT(downloadLocation) as total FROM downloadInformation WHERE downloadLocation = 'Flagship Shop'AND appDownloaded = 'My Orange App For Iphone' AND createdAt >= CURRENT_DATE - INTERVAL '1 week'
-UNION ALL
-SELECT 'my_orange_app_download_for_android_at_flagshipshop' as total_downloads,  COUNT(downloadLocation) as total FROM downloadInformation WHERE downloadLocation = 'Flagship Shop' AND appDownloaded = 'My Orange App For Iphone' AND createdAt >= CURRENT_DATE - INTERVAL '1 week'
+SELECT 'my_orange_app_download_for_iphone_at_flagshipshop' as total_downloads,  COUNT(downloadLocation) as total FROM downloadInformation WHERE downloadLocation = 'Flagship Shop' AND appDownloaded = 'My Orange App For Iphone' AND createdAt >= CURRENT_DATE - INTERVAL '1 week'
 UNION ALL
 SELECT 'my_orange_app_download_for_android_at_hqshop' as total_downloads,  COUNT(downloadLocation) as total FROM downloadInformation WHERE downloadLocation = 'Flagship Shop' AND appDownloaded = 'My Orange App For Android' AND createdAt >= CURRENT_DATE - INTERVAL '1 week'
 UNION ALL
@@ -241,11 +229,11 @@ SELECT 'orange_money_africa_app_download_for_android_at_flagshipshop' as total_d
 
 UNION ALL
 
-SELECT 'my_orange_app_download_for_android_at_wellingtonshop' as total_downloads,  COUNT(downloadLocation) as total FROM downloadInformation WHERE downloadLocation = 'Wellington Shop' AND appDownloaded = 'My Orange App For Iphone' AND createdAt >= CURRENT_DATE - INTERVAL '1 week'
+SELECT 'my_orange_app_download_for_iphone_at_wellingtonshop' as total_downloads,  COUNT(downloadLocation) as total FROM downloadInformation WHERE downloadLocation = 'Wellington Shop' AND appDownloaded = 'My Orange App For Iphone' AND createdAt >= CURRENT_DATE - INTERVAL '1 week'
 UNION ALL
-SELECT 'orange_money_africa_app_download_for_iphone_at_wellingtonshop' as total_downloads,  COUNT(downloadLocation) as total FROM downloadInformation WHERE downloadLocation = 'Wellington Shop' AND appDownloaded = 'My Orange App For Android' AND createdAt >= CURRENT_DATE - INTERVAL '1 week'
+SELECT 'my_orange_app_download_for_android_at_wellingtonshop' as total_downloads,  COUNT(downloadLocation) as total FROM downloadInformation WHERE downloadLocation = 'Wellington Shop' AND appDownloaded = 'My Orange App For Android' AND createdAt >= CURRENT_DATE - INTERVAL '1 week'
 UNION ALL
-SELECT 'orange_money_africa_app_download_for_iphone_at_flagshipshop' as total_downloads,  COUNT(downloadLocation) as total FROM downloadInformation WHERE downloadLocation = 'Wellington Shop' AND appDownloaded = 'Orange Money Africa Iphone' AND createdAt >= CURRENT_DATE - INTERVAL '1 week'
+SELECT 'orange_money_africa_app_download_for_iphone_at_wellingtonshop' as total_downloads,  COUNT(downloadLocation) as total FROM downloadInformation WHERE downloadLocation = 'Wellington Shop' AND appDownloaded = 'Orange Money Africa Iphone' AND createdAt >= CURRENT_DATE - INTERVAL '1 week'
 UNION ALL
 SELECT 'orange_money_africa_app_download_for_android_at_wellingtonshop' as total_downloads,  COUNT(downloadLocation) as total FROM downloadInformation WHERE downloadLocation = 'Wellington Shop' AND appDownloaded = 'Orange Money Africa Android' AND createdAt >= CURRENT_DATE - INTERVAL '1 week'
 
