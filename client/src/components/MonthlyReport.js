@@ -51,15 +51,15 @@ const MonthlyReport = () => {
                         'copy', 'print',
                         {
                             extend: 'excelHtml5',
-                            title: 'My Orange App Download For Iphone'
+                            title: ' MAXIT App Download For Iphone'
                         },
                         {
                             extend: 'pdfHtml5',
-                            title: 'My Orange App Download For Iphone'
+                            title: ' MAXIT App Download For Iphone'
                         },
                         {
                             extend: 'csvHtml5',
-                            title: 'My Orange App Download For Iphone'
+                            title: ' MAXIT App Download For Iphone'
                         }
                     ]
                 }
@@ -82,15 +82,15 @@ const MonthlyReport = () => {
                         'copy', 'print',
                         {
                             extend: 'excelHtml5',
-                            title: 'My Orange App Download For Android'
+                            title: ' MAXIT App Download For Android'
                         },
                         {
                             extend: 'pdfHtml5',
-                            title: 'My Orange App Download For Android'
+                            title: ' MAXIT App Download For Android'
                         },
                         {
                             extend: 'csvHtml5',
-                            title: 'My Orange App Download For Android'
+                            title: ' MAXIT App Download  For Android'
                         }
                     ]
                 }
@@ -113,15 +113,15 @@ const MonthlyReport = () => {
                         'copy', 'print',
                         {
                             extend: 'excelHtml5',
-                            title: 'Orange Money Africa App Download For Android'
+                            title: ' MAXIT App Download For Android'
                         },
                         {
                             extend: 'pdfHtml5',
-                            title: 'Orange Money Africa App Download For Android'
+                            title: ' MAXIT App Download For Android'
                         },
                         {
                             extend: 'csvHtml5',
-                            title: 'Orange Money Africa App Download For Android'
+                            title: ' MAXIT App Download  For Android'
                         }
                     ]
                 }
@@ -143,15 +143,15 @@ const MonthlyReport = () => {
                         'copy', 'print',
                         {
                             extend: 'excelHtml5',
-                            title: 'Orange Money Africa App Download For Iphone'
+                            title: ' MAXIT App Download For Iphone'
                         },
                         {
                             extend: 'pdfHtml5',
-                            title: 'Orange Money Africa App Download For Iphone'
+                            title: ' MAXIT App Download For Iphone'
                         },
                         {
                             extend: 'csvHtml5',
-                            title: 'Orange Money Africa App Download For Iphone'
+                            title: ' MAXIT App Download For Iphone'
                         }
                     ]
                 }
@@ -273,7 +273,7 @@ const MonthlyReport = () => {
         <>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home">ORANGE SIERRA LEONE</Navbar.Brand>
+                    <Navbar.Brand href="#home">ORANGE SIERRA LEONE MAXIT</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="#home"></Nav.Link>
                         <Nav.Link href="#features"></Nav.Link>
@@ -288,10 +288,10 @@ const MonthlyReport = () => {
 
                     <CCol xs={12}>
                         <CModalHeader>
-                            <CModalTitle>My Orange App Download For Iphone</CModalTitle>
+                            <CModalTitle> MAXIT App Download For Iphone</CModalTitle>
                         </CModalHeader>
                         <Table striped bordered hover size="sm" responsive id="table1">
-                            <caption><h2>My Orange App Download For Iphone</h2></caption>
+                            <caption><h2> MAXIT App Download For Iphone</h2></caption>
                             <thead>
                                 <tr>
                                     <th>HQ</th>
@@ -327,10 +327,10 @@ const MonthlyReport = () => {
                     <br />
                     <CCol xs={12}>
                         <CModalHeader>
-                            <CModalTitle>My Orange App Download For Android</CModalTitle>
+                            <CModalTitle>MAXIT App Download For Android</CModalTitle>
                         </CModalHeader>
                         <Table striped bordered hover size="sm" responsive id="table2">
-                            <caption><h2>My Orange App Download For Android</h2></caption>
+                            <caption><h2>MAXIT App Download For Android</h2></caption>
                             <thead>
                                 <tr>
                                     <th>HQ</th>
@@ -366,10 +366,10 @@ const MonthlyReport = () => {
 
                     <CCol xs={12}>
                         <CModalHeader>
-                            <CModalTitle>Orange Money Africa App Download For Android</CModalTitle>
+                            <CModalTitle>MAXIT App Download For Android</CModalTitle>
                         </CModalHeader>
                         <Table striped bordered hover size="sm" responsive id="table3">
-                            <caption><h2>Orange Money Africa App Download For Android</h2></caption>
+                            <caption><h2>MAXIT App Download  For Android</h2></caption>
                             <thead>
                                 <tr>
                                     <th>HQ</th>
@@ -404,10 +404,10 @@ const MonthlyReport = () => {
 
                     <CCol xs={12}>
                         <CModalHeader>
-                            <CModalTitle>Orange Money Africa App Download For Iphone</CModalTitle>
+                            <CModalTitle>MAXIT App Download For Iphone</CModalTitle>
                         </CModalHeader>
                         <Table striped bordered hover size="sm" responsive id="table4">
-                            <caption><h2>Orange Money Africa App Download For phone</h2></caption>
+                            <caption><h2> MAXIT App Download For phone</h2></caption>
                             <thead>
                                 <tr>
                                     <th>HQ</th>

@@ -125,7 +125,7 @@ const Dashboard = () => {
     return (
 
         <>
-            <Navbar bg="dark" variant="dark">
+            <Navbar bg="dark" variant="dark" >
                 <Container>
                     <Navbar.Brand href="#home">ORANGE SIERRA LEONE MAXIT DASHBOARD</Navbar.Brand>
                     <Nav className="me-auto">
