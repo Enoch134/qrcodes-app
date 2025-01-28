@@ -125,9 +125,9 @@ const Dashboard = () => {
     return (
 
         <>
-            <Navbar bg="dark" variant="dark">
+            <Navbar bg="dark" variant="dark" >
                 <Container>
-                    <Navbar.Brand href="#home">ORANGE SIERRA LEONE DASHBOARD</Navbar.Brand>
+                    <Navbar.Brand href="#home">ORANGE SIERRA LEONE MAXIT DASHBOARD</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="#home">DOWNLOAD PER SHOP CHART</Nav.Link>
                         <Nav.Link href="#features"></Nav.Link>
@@ -144,7 +144,7 @@ const Dashboard = () => {
                 </CCol>
                 <CCol xs={5}>
                     <CCard className="mb-4">
-                        <CCardHeader>My Orange App Download (Iphone)</CCardHeader>
+                        <CCardHeader>MAXIT App Download (Iphone)</CCardHeader>
                         <CCardBody>
                             <CChartBar
                                 data={{
@@ -185,7 +185,7 @@ const Dashboard = () => {
                 </CCol>
                 <CCol xs={5}>
                     <CCard className="mb-4">
-                        <CCardHeader>My Orange App Download (Android)</CCardHeader>
+                        <CCardHeader>MAXIT App Download (Android)</CCardHeader>
                         <CCardBody>
                             <CChartBar
                                 data={{
@@ -230,7 +230,7 @@ const Dashboard = () => {
 
                 <CCol xs={5}>
                     <CCard className="mb-4">
-                        <CCardHeader>Orange Money Africa App Download (Iphone)</CCardHeader>
+                        <CCardHeader> MAXIT App Download  (Iphone)</CCardHeader>
                         <CCardBody>
                             <CChartBar
                                 data={{
@@ -274,7 +274,7 @@ const Dashboard = () => {
                 <CCol xs={5}>
                     <CCard className="mb-4">
                         <CCardHeader>
-                            Orange Money Africa App Download (Android)</CCardHeader>
+                        MAXIT App Download  (Android)</CCardHeader>
                         <CCardBody>
                             <CChartBar
                                 data={{
