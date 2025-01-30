@@ -9,4 +9,4 @@
     `${orange_money_africa_app_download_for_android_at_konoshop_sum}`,
     `${orange_money_africa_app_download_for_android_at_lungishop_sum}`,
 
-    `${orange_money_africa_app_download_for_android_at_hqshop_sum}`,
+    `${orange_money_africa_app_download_for_android_at_hqshop_sum}`
