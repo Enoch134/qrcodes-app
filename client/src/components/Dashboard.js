@@ -42,27 +42,27 @@ const Dashboard = () => {
 
 
 
-    const [orange_money_africa_app_download_for_iphone_at_hqshop_sum, setOrange_money_africa_app_download_for_iphone_at_hqshop_sum] = useState(null);
-    const [orange_money_africa_app_download_for_iphone_at_kenemashop_sum, setOrange_money_africa_app_download_for_iphone_at_kenemashop_sum] = useState(null);
-    const [orange_money_africa_app_download_for_iphone_at_boshop_sum, setOrange_money_africa_app_download_for_iphone_at_boshop_sum] = useState(null);
-    const [orange_money_africa_app_download_for_iphone_at_makenishop_sum, setOrange_money_africa_app_download_for_iphone_at_makenishop_sum] = useState(null);
-    const [orange_money_africa_app_download_for_iphone_at_konoshop_sum, setOrange_money_africa_app_download_for_iphone_at_konoshop_sum] = useState(null);
-    const [orange_money_africa_app_download_for_iphone_at_flagshipshop_sum, setOrange_money_africa_app_download_for_iphone_at_flagshipshop_sum] = useState(null);
-    const [orange_money_africa_app_download_for_iphone_at_lungishop_sum, setOrange_money_africa_app_download_for_iphone_at_lungishop_sum] = useState(null);
-    const [orange_money_africa_app_download_for_iphone_at_waterlooshop_sum, setOrange_money_africa_app_download_for_iphone_at_waterlooshop_sum] = useState(null);
-    const [orange_money_africa_app_download_for_iphone_at_wellingtonshop_sum, setOrange_money_africa_app_download_for_iphone_at_wellingtonshop_sum] = useState(null);
+    // const [orange_money_africa_app_download_for_iphone_at_hqshop_sum, setOrange_money_africa_app_download_for_iphone_at_hqshop_sum] = useState(null);
+    // const [orange_money_africa_app_download_for_iphone_at_kenemashop_sum, setOrange_money_africa_app_download_for_iphone_at_kenemashop_sum] = useState(null);
+    // const [orange_money_africa_app_download_for_iphone_at_boshop_sum, setOrange_money_africa_app_download_for_iphone_at_boshop_sum] = useState(null);
+    // const [orange_money_africa_app_download_for_iphone_at_makenishop_sum, setOrange_money_africa_app_download_for_iphone_at_makenishop_sum] = useState(null);
+    // const [orange_money_africa_app_download_for_iphone_at_konoshop_sum, setOrange_money_africa_app_download_for_iphone_at_konoshop_sum] = useState(null);
+    // const [orange_money_africa_app_download_for_iphone_at_flagshipshop_sum, setOrange_money_africa_app_download_for_iphone_at_flagshipshop_sum] = useState(null);
+    // const [orange_money_africa_app_download_for_iphone_at_lungishop_sum, setOrange_money_africa_app_download_for_iphone_at_lungishop_sum] = useState(null);
+    // const [orange_money_africa_app_download_for_iphone_at_waterlooshop_sum, setOrange_money_africa_app_download_for_iphone_at_waterlooshop_sum] = useState(null);
+    // const [orange_money_africa_app_download_for_iphone_at_wellingtonshop_sum, setOrange_money_africa_app_download_for_iphone_at_wellingtonshop_sum] = useState(null);
 
 
 
-    const [orange_money_africa_app_download_for_android_at_hqshop_sum, setOrange_money_africa_app_download_for_android_at_hqshop_sum] = useState(null);
-    const [orange_money_africa_app_download_for_android_at_kenemashop_sum, setOrange_money_africa_app_download_for_android_at_kenemashop_sum] = useState(null);
-    const [orange_money_africa_app_download_for_android_at_boshop_sum, setOrange_money_africa_app_download_for_android_at_boshop_sum] = useState(null);
-    const [orange_money_africa_app_download_for_android_at_makenishop_sum, setOrange_money_africa_app_download_for_android_at_makenishop_sum] = useState(null);
-    const [orange_money_africa_app_download_for_android_at_konoshop_sum, setOrange_money_africa_app_download_for_android_at_konoshop_sum] = useState(null);
-    const [orange_money_africa_app_download_for_android_at_flagshipshop_sum, setOrange_money_africa_app_download_for_android_at_flagshipshop_sum] = useState(null);
-    const [orange_money_africa_app_download_for_android_at_lungishop_sum, setOrange_money_africa_app_download_for_android_at_lungishop_sum] = useState(null);
-    const [orange_money_africa_app_download_for_android_at_waterlooshop_sum, setOrange_money_africa_app_download_for_android_at_waterlooshop_sum] = useState(null);
-    const [orange_money_africa_app_download_for_android_at_wellingtonshop_sum, setOrange_money_africa_app_download_for_android_at_wellingtonshop_sum] = useState(null);
+    // const [orange_money_africa_app_download_for_android_at_hqshop_sum, setOrange_money_africa_app_download_for_android_at_hqshop_sum] = useState(null);
+    // const [orange_money_africa_app_download_for_android_at_kenemashop_sum, setOrange_money_africa_app_download_for_android_at_kenemashop_sum] = useState(null);
+    // const [orange_money_africa_app_download_for_android_at_boshop_sum, setOrange_money_africa_app_download_for_android_at_boshop_sum] = useState(null);
+    // const [orange_money_africa_app_download_for_android_at_makenishop_sum, setOrange_money_africa_app_download_for_android_at_makenishop_sum] = useState(null);
+    // const [orange_money_africa_app_download_for_android_at_konoshop_sum, setOrange_money_africa_app_download_for_android_at_konoshop_sum] = useState(null);
+    // const [orange_money_africa_app_download_for_android_at_flagshipshop_sum, setOrange_money_africa_app_download_for_android_at_flagshipshop_sum] = useState(null);
+    // const [orange_money_africa_app_download_for_android_at_lungishop_sum, setOrange_money_africa_app_download_for_android_at_lungishop_sum] = useState(null);
+    // const [orange_money_africa_app_download_for_android_at_waterlooshop_sum, setOrange_money_africa_app_download_for_android_at_waterlooshop_sum] = useState(null);
+    // const [orange_money_africa_app_download_for_android_at_wellingtonshop_sum, setOrange_money_africa_app_download_for_android_at_wellingtonshop_sum] = useState(null);
 
 
 
@@ -93,26 +93,26 @@ const Dashboard = () => {
 
 
 
-                setOrange_money_africa_app_download_for_iphone_at_hqshop_sum(response.data.orange_money_africa_app_download_for_iphone_at_hqshop_sum);
-                setOrange_money_africa_app_download_for_iphone_at_flagshipshop_sum(response.data.orange_money_africa_app_download_for_iphone_at_flagshipshop_sum);
-                setOrange_money_africa_app_download_for_iphone_at_makenishop_sum(response.data.orange_money_africa_app_download_for_iphone_at_makenishop_sum);
-                setOrange_money_africa_app_download_for_iphone_at_boshop_sum(response.data.orange_money_africa_app_download_for_iphone_at_boshop_sum);
-                setOrange_money_africa_app_download_for_iphone_at_kenemashop_sum(response.data.orange_money_africa_app_download_for_iphone_at_kenemashop_sum);
-                setOrange_money_africa_app_download_for_iphone_at_konoshop_sum(response.data.orange_money_africa_app_download_for_iphone_at_konoshop_sum);
-                setOrange_money_africa_app_download_for_iphone_at_lungishop_sum(response.data.orange_money_africa_app_download_for_iphone_at_lungishop_sum);
-                setOrange_money_africa_app_download_for_iphone_at_wellingtonshop_sum(response.data.orange_money_africa_app_download_for_iphone_at_wellingtonshop_sum);
-                setOrange_money_africa_app_download_for_iphone_at_waterlooshop_sum(response.data.orange_money_africa_app_download_for_iphone_at_waterlooshop_sum);
+                // setOrange_money_africa_app_download_for_iphone_at_hqshop_sum(response.data.orange_money_africa_app_download_for_iphone_at_hqshop_sum);
+                // setOrange_money_africa_app_download_for_iphone_at_flagshipshop_sum(response.data.orange_money_africa_app_download_for_iphone_at_flagshipshop_sum);
+                // setOrange_money_africa_app_download_for_iphone_at_makenishop_sum(response.data.orange_money_africa_app_download_for_iphone_at_makenishop_sum);
+                // setOrange_money_africa_app_download_for_iphone_at_boshop_sum(response.data.orange_money_africa_app_download_for_iphone_at_boshop_sum);
+                // setOrange_money_africa_app_download_for_iphone_at_kenemashop_sum(response.data.orange_money_africa_app_download_for_iphone_at_kenemashop_sum);
+                // setOrange_money_africa_app_download_for_iphone_at_konoshop_sum(response.data.orange_money_africa_app_download_for_iphone_at_konoshop_sum);
+                // setOrange_money_africa_app_download_for_iphone_at_lungishop_sum(response.data.orange_money_africa_app_download_for_iphone_at_lungishop_sum);
+                // setOrange_money_africa_app_download_for_iphone_at_wellingtonshop_sum(response.data.orange_money_africa_app_download_for_iphone_at_wellingtonshop_sum);
+                // setOrange_money_africa_app_download_for_iphone_at_waterlooshop_sum(response.data.orange_money_africa_app_download_for_iphone_at_waterlooshop_sum);
 
 
-                setOrange_money_africa_app_download_for_android_at_hqshop_sum(response.data.orange_money_africa_app_download_for_android_at_hqshop_sum);
-                setOrange_money_africa_app_download_for_android_at_flagshipshop_sum(response.data.orange_money_africa_app_download_for_android_at_flagshipshop_sum);
-                setOrange_money_africa_app_download_for_android_at_makenishop_sum(response.data.orange_money_africa_app_download_for_android_at_makenishop_sum);
-                setOrange_money_africa_app_download_for_android_at_boshop_sum(response.data.orange_money_africa_app_download_for_android_at_boshop_sum);
-                setOrange_money_africa_app_download_for_android_at_kenemashop_sum(response.data.orange_money_africa_app_download_for_android_at_kenemashop_sum);
-                setOrange_money_africa_app_download_for_android_at_konoshop_sum(response.data.orange_money_africa_app_download_for_android_at_konoshop_sum);
-                setOrange_money_africa_app_download_for_android_at_lungishop_sum(response.data.orange_money_africa_app_download_for_android_at_lungishop_sum);
-                setOrange_money_africa_app_download_for_android_at_wellingtonshop_sum(response.data.orange_money_africa_app_download_for_android_at_wellingtonshop_sum);
-                setOrange_money_africa_app_download_for_android_at_waterlooshop_sum(response.data.orange_money_africa_app_download_for_android_at_waterlooshop_sum);
+                // setOrange_money_africa_app_download_for_android_at_hqshop_sum(response.data.orange_money_africa_app_download_for_android_at_hqshop_sum);
+                // setOrange_money_africa_app_download_for_android_at_flagshipshop_sum(response.data.orange_money_africa_app_download_for_android_at_flagshipshop_sum);
+                // setOrange_money_africa_app_download_for_android_at_makenishop_sum(response.data.orange_money_africa_app_download_for_android_at_makenishop_sum);
+                // setOrange_money_africa_app_download_for_android_at_boshop_sum(response.data.orange_money_africa_app_download_for_android_at_boshop_sum);
+                // setOrange_money_africa_app_download_for_android_at_kenemashop_sum(response.data.orange_money_africa_app_download_for_android_at_kenemashop_sum);
+                // setOrange_money_africa_app_download_for_android_at_konoshop_sum(response.data.orange_money_africa_app_download_for_android_at_konoshop_sum);
+                // setOrange_money_africa_app_download_for_android_at_lungishop_sum(response.data.orange_money_africa_app_download_for_android_at_lungishop_sum);
+                // setOrange_money_africa_app_download_for_android_at_wellingtonshop_sum(response.data.orange_money_africa_app_download_for_android_at_wellingtonshop_sum);
+                // setOrange_money_africa_app_download_for_android_at_waterlooshop_sum(response.data.orange_money_africa_app_download_for_android_at_waterlooshop_sum);
 
             })
             .catch(error => console.log(error));
@@ -125,7 +125,7 @@ const Dashboard = () => {
     return (
 
         <>
-            <Navbar bg="dark" variant="dark" >
+            <Navbar bg="dark" data-bs-theme="dark"  >
                 <Container>
                     <Navbar.Brand href="#home">ORANGE SIERRA LEONE MAXIT DASHBOARD</Navbar.Brand>
                     <Nav className="me-auto">
@@ -228,7 +228,7 @@ const Dashboard = () => {
                 <br />
 
 
-                <CCol xs={5}>
+                {/* <CCol xs={5}>
                     <CCard className="mb-4">
                         <CCardHeader> MAXIT App Download  (Iphone)</CCardHeader>
                         <CCardBody>
@@ -269,9 +269,9 @@ const Dashboard = () => {
                             />
                         </CCardBody>
                     </CCard>
-                </CCol>
+                </CCol> */}
 
-                <CCol xs={5}>
+                {/* <CCol xs={5}>
                     <CCard className="mb-4">
                         <CCardHeader>
                         MAXIT App Download  (Android)</CCardHeader>
@@ -313,7 +313,7 @@ const Dashboard = () => {
                             />
                         </CCardBody>
                     </CCard>
-                </CCol>
+                </CCol> */}
 
             </CRow>
         </>
