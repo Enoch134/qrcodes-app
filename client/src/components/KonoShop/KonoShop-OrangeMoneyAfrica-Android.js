@@ -19,7 +19,7 @@ const [phoneNumber, setPhoneNumber] = useState("");
       }
       
       // Save visitor details along with phone number
-      fetch(`https://qrcodes-app-runt.vercel.app/api/myOrange-for-boshop/Android`, {
+      fetch(`https://qrcodes-app-runt.vercel.app/api/myOrange-for-boshop/Andriod`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ downloadLocation, appDownloaded, coordinate, createdAt, phoneNumber }),
@@ -59,7 +59,7 @@ const [phoneNumber, setPhoneNumber] = useState("");
                   </button>
               </form>
           ) : (
-              <p className="text-center text-lg font-bold">Redirecting to Play Store...</p>
+              <p className="text-center text-lg font-bold">Redirecting to  Store...</p>
           )}
       </div>
   );

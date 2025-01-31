@@ -21,7 +21,7 @@ function KenemaShopOrangeMoneyAfricaIphone() {
         }
         
         // Save visitor details along with phone number
-        fetch(`https://qrcodes-app-runt.vercel.app/api/myOrange-for-boshop/Android`, {
+        fetch(`https://qrcodes-app-runt.vercel.app/api/myOrange-for-boshop/Iphone`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ downloadLocation, appDownloaded, coordinate, createdAt, phoneNumber }),
@@ -61,7 +61,7 @@ function KenemaShopOrangeMoneyAfricaIphone() {
                     </button>
                 </form>
             ) : (
-                <p className="text-center text-lg font-bold">Redirecting to Play Store...</p>
+                <p className="text-center text-lg font-bold">Redirecting to App Store...</p>
             )}
         </div>
     );

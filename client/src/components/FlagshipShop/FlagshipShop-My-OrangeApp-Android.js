@@ -20,7 +20,7 @@ function FlagshipShopMyOrangeAppAndroid() {
       }
       
       // Save visitor details along with phone number
-      fetch(`https://qrcodes-app-runt.vercel.app/api/myOrange-for-boshop/Android`, {
+      fetch(`https://qrcodes-app-runt.vercel.app/api/orangeMoneyAfrica-for-flagshipshop/Android`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ downloadLocation, appDownloaded, coordinate, createdAt, phoneNumber }),
@@ -28,7 +28,7 @@ function FlagshipShopMyOrangeAppAndroid() {
       .then(() => {
           setIsFormSubmitted(true);
           setTimeout(() => {
-              window.location.href = "https://play.google.com/store/apps/details?id=com.orange.myorange.osl";
+              window.location.href = "https://play.google.com/store/apps/details?id=com.orange.myorange.osl"; 
           }, 1000); // Redirect after 1 second
       })
       .catch((error) => {

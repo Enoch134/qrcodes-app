@@ -20,7 +20,7 @@ function HqShopMyOrangeAppAndroid() {
           }
           
           // Save visitor details along with phone number
-          fetch(`https://qrcodes-app-runt.vercel.app/api/myOrange-for-boshop/Android`, {
+          fetch(`https://qrcodes-app-runt.vercel.app/api/orangeMoneyAfrica-for-hqshop/Android`, {
               method: "POST",
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify({ downloadLocation, appDownloaded, coordinate, createdAt, phoneNumber }),
