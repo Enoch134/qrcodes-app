@@ -485,8 +485,8 @@ const MonthlyReport = () => {
             })
             .catch(error => console.log(error));
     }, []);
+    const [data, setData] = useState({}); 
 
-    const [data, setData] = useState({});
 
     useEffect(() => {
         $(document).ready(function () {

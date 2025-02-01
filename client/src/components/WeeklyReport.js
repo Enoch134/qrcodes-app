@@ -188,27 +188,7 @@ const WeeklyReport = () => {
 
 
 
-    // const [orange_money_africa_app_download_for_iphone_at_hqshop_sum, setOrange_money_africa_app_download_for_iphone_at_hqshop_sum] = useState(null);
-    // const [orange_money_africa_app_download_for_iphone_at_kenemashop_sum, setOrange_money_africa_app_download_for_iphone_at_kenemashop_sum] = useState(null);
-    // const [orange_money_africa_app_download_for_iphone_at_boshop_sum, setOrange_money_africa_app_download_for_iphone_at_boshop_sum] = useState(null);
-    // const [orange_money_africa_app_download_for_iphone_at_makenishop_sum, setOrange_money_africa_app_download_for_iphone_at_makenishop_sum] = useState(null);
-    // const [orange_money_africa_app_download_for_iphone_at_konoshop_sum, setOrange_money_africa_app_download_for_iphone_at_konoshop_sum] = useState(null);
-    // const [orange_money_africa_app_download_for_iphone_at_flagshipshop_sum, setOrange_money_africa_app_download_for_iphone_at_flagshipshop_sum] = useState(null);
-    // const [orange_money_africa_app_download_for_iphone_at_lungishop_sum, setOrange_money_africa_app_download_for_iphone_at_lungishop_sum] = useState(null);
-    // const [orange_money_africa_app_download_for_iphone_at_waterlooshop_sum, setOrange_money_africa_app_download_for_iphone_at_waterlooshop_sum] = useState(null);
-    // const [orange_money_africa_app_download_for_iphone_at_wellingtonshop_sum, setOrange_money_africa_app_download_for_iphone_at_wellingtonshop_sum] = useState(null);
-
-
-
-    // const [orange_money_africa_app_download_for_android_at_hqshop_sum, setOrange_money_africa_app_download_for_android_at_hqshop_sum] = useState(null);
-    // const [orange_money_africa_app_download_for_android_at_kenemashop_sum, setOrange_money_africa_app_download_for_android_at_kenemashop_sum] = useState(null);
-    // const [orange_money_africa_app_download_for_android_at_boshop_sum, setOrange_money_africa_app_download_for_android_at_boshop_sum] = useState(null);
-    // const [orange_money_africa_app_download_for_android_at_makenishop_sum, setOrange_money_africa_app_download_for_android_at_makenishop_sum] = useState(null);
-    // const [orange_money_africa_app_download_for_android_at_konoshop_sum, setOrange_money_africa_app_download_for_android_at_konoshop_sum] = useState(null);
-    // const [orange_money_africa_app_download_for_android_at_flagshipshop_sum, setOrange_money_africa_app_download_for_android_at_flagshipshop_sum] = useState(null);
-    // const [orange_money_africa_app_download_for_android_at_lungishop_sum, setOrange_money_africa_app_download_for_android_at_lungishop_sum] = useState(null);
-    // const [orange_money_africa_app_download_for_android_at_waterlooshop_sum, setOrange_money_africa_app_download_for_android_at_waterlooshop_sum] = useState(null);
-    // const [orange_money_africa_app_download_for_android_at_wellingtonshop_sum, setOrange_money_africa_app_download_for_android_at_wellingtonshop_sum] = useState(null);
+    
 
 
 
@@ -239,26 +219,6 @@ const WeeklyReport = () => {
 
 
 
-                // setOrange_money_africa_app_download_for_iphone_at_hqshop_sum(response.data.orange_money_africa_app_download_for_iphone_at_hqshop_sum);
-                // setOrange_money_africa_app_download_for_iphone_at_flagshipshop_sum(response.data.orange_money_africa_app_download_for_iphone_at_flagshipshop_sum);
-                // setOrange_money_africa_app_download_for_iphone_at_makenishop_sum(response.data.orange_money_africa_app_download_for_iphone_at_makenishop_sum);
-                // setOrange_money_africa_app_download_for_iphone_at_boshop_sum(response.data.orange_money_africa_app_download_for_iphone_at_boshop_sum);
-                // setOrange_money_africa_app_download_for_iphone_at_kenemashop_sum(response.data.orange_money_africa_app_download_for_iphone_at_kenemashop_sum);
-                // setOrange_money_africa_app_download_for_iphone_at_konoshop_sum(response.data.orange_money_africa_app_download_for_iphone_at_konoshop_sum);
-                // setOrange_money_africa_app_download_for_iphone_at_lungishop_sum(response.data.orange_money_africa_app_download_for_iphone_at_lungishop_sum);
-                // setOrange_money_africa_app_download_for_iphone_at_wellingtonshop_sum(response.data.orange_money_africa_app_download_for_iphone_at_wellingtonshop_sum);
-                // setOrange_money_africa_app_download_for_iphone_at_waterlooshop_sum(response.data.orange_money_africa_app_download_for_iphone_at_waterlooshop_sum);
-
-
-                // setOrange_money_africa_app_download_for_android_at_hqshop_sum(response.data.orange_money_africa_app_download_for_android_at_hqshop_sum);
-                // setOrange_money_africa_app_download_for_android_at_flagshipshop_sum(response.data.orange_money_africa_app_download_for_android_at_flagshipshop_sum);
-                // setOrange_money_africa_app_download_for_android_at_makenishop_sum(response.data.orange_money_africa_app_download_for_android_at_makenishop_sum);
-                // setOrange_money_africa_app_download_for_android_at_boshop_sum(response.data.orange_money_africa_app_download_for_android_at_boshop_sum);
-                // setOrange_money_africa_app_download_for_android_at_kenemashop_sum(response.data.orange_money_africa_app_download_for_android_at_kenemashop_sum);
-                // setOrange_money_africa_app_download_for_android_at_konoshop_sum(response.data.orange_money_africa_app_download_for_android_at_konoshop_sum);
-                // setOrange_money_africa_app_download_for_android_at_lungishop_sum(response.data.orange_money_africa_app_download_for_android_at_lungishop_sum);
-                // setOrange_money_africa_app_download_for_android_at_wellingtonshop_sum(response.data.orange_money_africa_app_download_for_android_at_wellingtonshop_sum);
-                // setOrange_money_africa_app_download_for_android_at_waterlooshop_sum(response.data.orange_money_africa_app_download_for_android_at_waterlooshop_sum);
 
             })
             .catch(error => console.log(error));
@@ -294,6 +254,7 @@ const WeeklyReport = () => {
                             <caption><h2> MAXIT App Download  For Iphone</h2></caption>
                             <thead>
                                 <tr>
+                                   {/* <th>Phone Number</th> */}
                                     <th>HQ</th>
                                     <th>Flagship</th>
                                     <th>Wellington</th>
@@ -307,6 +268,7 @@ const WeeklyReport = () => {
                             </thead>
                             <tbody>
                                 <tr >
+                                     {/* <td>{data.phoneNumber || 'N/A'}</td> */}
                                     <td>{my_orange_app_download_for_iphone_at_hqshop_sum}</td>
                                     <td>{my_orange_app_download_for_iphone_at_flagshipshop_sum}</td>
                                     <td>{my_orange_app_download_for_iphone_at_wellingtonshop_sum}</td>
@@ -365,82 +327,7 @@ const WeeklyReport = () => {
 
                     <br />
                     <br />
-{/* 
-                    <CCol xs={12}>
-                        <CModalHeader>
-                            <CModalTitle>MAXIT App Download  For Android</CModalTitle>
-                        </CModalHeader>
-                        <Table striped bordered hover size="sm" responsive id="table3">
-                            <caption><h2>MAXIT App Download  For Android</h2></caption>
-                            <thead>
-                                <tr>
-                                    <th>HQ</th>
-                                    <th>Flagship</th>
-                                    <th>Wellington</th>
-                                    <th>Waterloo</th>
-                                    <th>Makeni</th>
-                                    <th>Bo</th>
-                                    <th>Kenema</th>
-                                    <th>Kono</th>
-                                    <th>Lungi</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr >
-                                    <td>{orange_money_africa_app_download_for_android_at_hqshop_sum}</td>
-                                    <td>{orange_money_africa_app_download_for_android_at_flagshipshop_sum}</td>
-                                    <td>{orange_money_africa_app_download_for_android_at_wellingtonshop_sum}</td>
-                                    <td>{orange_money_africa_app_download_for_android_at_waterlooshop_sum}</td>
-                                    <td>{orange_money_africa_app_download_for_android_at_makenishop_sum}</td>
-                                    <td>{orange_money_africa_app_download_for_android_at_boshop_sum}</td>
-                                    <td>{orange_money_africa_app_download_for_android_at_kenemashop_sum}</td>
-                                    <td>{orange_money_africa_app_download_for_android_at_konoshop_sum}</td>
-                                    <td>{orange_money_africa_app_download_for_android_at_lungishop_sum}</td>
-                                </tr>
 
-                            </tbody>
-                        </Table>
-                    </CCol> */}
-
-                    <br />
-                    <br />
-
-{/* 
-                    <CCol xs={12}>
-                        <CModalHeader>
-                            <CModalTitle> MAXIT App Download For Iphone</CModalTitle>
-                        </CModalHeader>
-                        <Table striped bordered hover size="sm" responsive id="table4">
-                            <caption><h2>Orange Money Africa App Download For Android</h2></caption>
-                            <thead>
-                                <tr>
-                                    <th>HQ</th>
-                                    <th>Flagship</th>
-                                    <th>Wellington</th>
-                                    <th>Waterloo</th>
-                                    <th>Makeni</th>
-                                    <th>Bo</th>
-                                    <th>Kenema</th>
-                                    <th>Kono</th>
-                                    <th>Lungi</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr >
-                                    <td>{orange_money_africa_app_download_for_iphone_at_hqshop_sum}</td>
-                                    <td>{orange_money_africa_app_download_for_iphone_at_flagshipshop_sum}</td>
-                                    <td>{orange_money_africa_app_download_for_iphone_at_wellingtonshop_sum}</td>
-                                    <td>{orange_money_africa_app_download_for_iphone_at_waterlooshop_sum}</td>
-                                    <td>{orange_money_africa_app_download_for_iphone_at_makenishop_sum}</td>
-                                    <td>{orange_money_africa_app_download_for_iphone_at_boshop_sum}</td>
-                                    <td>{orange_money_africa_app_download_for_iphone_at_kenemashop_sum}</td>
-                                    <td>{orange_money_africa_app_download_for_iphone_at_konoshop_sum}</td>
-                                    <td>{orange_money_africa_app_download_for_iphone_at_lungishop_sum}</td>
-                                </tr>
-
-                            </tbody>
-                        </Table>
-                    </CCol> */}
 
                 </CRow>
 
