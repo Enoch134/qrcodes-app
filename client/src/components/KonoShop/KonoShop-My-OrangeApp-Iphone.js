@@ -21,7 +21,7 @@ function KonoShopMyOrangeAppIphone() {
           }
           
           // Save visitor details along with phone number
-          fetch(`https://qrcodes-app-runt.vercel.app/api/myOrange-for-boshop/Iphone`, {
+          fetch(`https://qrcodes-app-runt.vercel.app/api/orangeMoneyAfrica-for-konoshop/Iphone`, {
               method: "POST",
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify({ downloadLocation, appDownloaded, coordinate, createdAt, phoneNumber }),
@@ -29,7 +29,7 @@ function KonoShopMyOrangeAppIphone() {
           .then(() => {
               setIsFormSubmitted(true);
               setTimeout(() => {
-                  window.location.href = "https://play.google.com/store/apps/details?id=com.orange.myorange.osl";
+                  window.location.href = "https://itunes.apple.com/fr/app/id6443607903";
               }, 1000); // Redirect after 1 second
           })
           .catch((error) => {
@@ -55,7 +55,7 @@ function KonoShopMyOrangeAppIphone() {
                       />
                       <button 
                           type="submit" 
-                          className="bg-blue-500 text-white px-4 py-2 rounded"
+                          className="bg-black text-white px-4 py-2 rounded"
                       >
                           Submit & Download
                       </button>

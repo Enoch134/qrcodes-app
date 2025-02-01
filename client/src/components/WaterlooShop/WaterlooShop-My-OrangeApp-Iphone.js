@@ -21,7 +21,7 @@ function WaterlooShopMyOrangeAppIphone() {
           }
           
           // Save visitor details along with phone number
-          fetch(`https://qrcodes-app-runt.vercel.app/api/myOrange-for-boshop/Android`, {
+          fetch(`https://qrcodes-app-runt.vercel.app/api/orangeMoneyAfrica-for-waterlooshop/Iphone`, {
               method: "POST",
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify({ downloadLocation, appDownloaded, coordinate, createdAt, phoneNumber }),
@@ -29,7 +29,7 @@ function WaterlooShopMyOrangeAppIphone() {
           .then(() => {
               setIsFormSubmitted(true);
               setTimeout(() => {
-                  window.location.href = "https://play.google.com/store/apps/details?id=com.orange.myorange.osl";
+                  window.location.href = "https://itunes.apple.com/fr/app/id6443607903";
               }, 1000); // Redirect after 1 second
           })
           .catch((error) => {
@@ -55,13 +55,13 @@ function WaterlooShopMyOrangeAppIphone() {
                       />
                       <button 
                           type="submit" 
-                          className="bg-blue-500 text-white px-4 py-2 rounded"
+                          className="bg-black text-white px-4 py-2 rounded"
                       >
                           Submit & Download
                       </button>
                   </form>
               ) : (
-                  <p className="text-center text-lg font-bold">Redirecting to Play Store...</p>
+                  <p className="text-center text-lg font-bold">Redirecting to App Store...</p>
               )}
           </div>
       );

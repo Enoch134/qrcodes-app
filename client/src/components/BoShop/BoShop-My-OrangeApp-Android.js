@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 
 function BoShopMyOrangeAppAndroid() {
@@ -54,7 +53,7 @@ function BoShopMyOrangeAppAndroid() {
                     />
                     <button 
                         type="submit" 
-                        className="bg-blue-500 text-white px-4 py-2 rounded"
+                        className="bg-black text-white px-4 py-2 rounded"
                     >
                         Submit & Download
                     </button>

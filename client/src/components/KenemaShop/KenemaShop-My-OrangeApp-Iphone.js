@@ -29,7 +29,7 @@ function KenemaShopMyOrangeAppIphone() {
           .then(() => {
               setIsFormSubmitted(true);
               setTimeout(() => {
-                  window.location.href = "https://play.google.com/store/apps/details?id=com.orange.myorange.osl";
+                  window.location.href = "https://itunes.apple.com/fr/app/id6443607903";
               }, 1000); // Redirect after 1 second
           })
           .catch((error) => {
@@ -55,7 +55,7 @@ function KenemaShopMyOrangeAppIphone() {
                       />
                       <button 
                           type="submit" 
-                          className="bg-blue-500 text-white px-4 py-2 rounded"
+                          className="bg-black text-white px-4 py-2 rounded"
                       >
                           Submit & Download
                       </button>

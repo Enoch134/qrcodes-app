@@ -3,7 +3,7 @@ import pool from "../database-connection/DatabaseConnection.js";
 
 const router = express.Router();
 
-router.post("/api/orangeMoneyAfrica-for-flagshipshop/Iphone", (req, res) => {
+router.post("/api/orangeMoneyAfrica-for-flagshipshop/Andriod", (req, res) => {
   const { downloadLocation, appDownloaded, coordinate, createdAt, phoneNumber } = req.body;
   const sql = "INSERT INTO downloadInformation (downloadlocation, appDownloaded, coordinate, createdAt, phoneNumber) VALUES ($1, $2, $3, $4, $5)";
   const values = [downloadLocation, appDownloaded, coordinate, createdAt, phoneNumber];
@@ -19,7 +19,7 @@ router.post("/api/orangeMoneyAfrica-for-flagshipshop/Iphone", (req, res) => {
   });
 });
 
-router.post("/api/orangeMoneyAfrica-for-flagshipshop/Android", (req, res) => {
+router.post("/api/orangeMoneyAfrica-for-flagshipshop/Iphone", (req, res) => {
   const { downloadLocation, appDownloaded, coordinate, createdAt, phoneNumber } = req.body;
   const sql = "INSERT INTO downloadInformation (downloadlocation, appDownloaded, coordinate, createdAt, phoneNumber) VALUES ($1, $2, $3, $4, $5)";
   const values = [downloadLocation, appDownloaded, coordinate, createdAt, phoneNumber];
